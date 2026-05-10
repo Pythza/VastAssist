@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -euo pipefail
+#set -euo pipefail
 
 if ! command -v aws >/dev/null 2>&1; then
   tmpdir="$(mktemp -d)"
